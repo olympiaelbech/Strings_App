@@ -56,7 +56,7 @@ class MessagesTableViewController: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "LabelCell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "LabelCell_1", for: indexPath)
         
         cell.textLabel?.text = allColleges[indexPath.row].College
         
@@ -70,10 +70,10 @@ class MessagesTableViewController: UITableViewController {
     
     
     
-    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String?
-    {
-        return "Section \(section)"
-    }
+//    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String?
+//    {
+//        return "Section \(section)"
+//    }
 
     /*
     // Override to support conditional editing of the table view.

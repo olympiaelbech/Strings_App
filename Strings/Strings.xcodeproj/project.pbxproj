@@ -14,6 +14,7 @@
 		18E79D1A22F1D7B800B09181 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E79D1822F1D7B800B09181 /* LaunchScreen.storyboard */; };
 		18E79D2222F22BC200B09181 /* MessagesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E79D2122F22BC200B09181 /* MessagesTableViewController.swift */; };
 		18E79D2422F3297C00B09181 /* FeedLinksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E79D2322F3297C00B09181 /* FeedLinksTableViewController.swift */; };
+		18E79D2622F3725000B09181 /* AddVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E79D2522F3725000B09181 /* AddVideoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		18E79D1B22F1D7B800B09181 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18E79D2122F22BC200B09181 /* MessagesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesTableViewController.swift; sourceTree = "<group>"; };
 		18E79D2322F3297C00B09181 /* FeedLinksTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLinksTableViewController.swift; sourceTree = "<group>"; };
+		18E79D2522F3725000B09181 /* AddVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddVideoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				18E79D0C22F1D7B600B09181 /* AppDelegate.swift */,
 				18E79D1022F1D7B600B09181 /* Main.storyboard */,
+				18E79D2522F3725000B09181 /* AddVideoViewController.swift */,
 				18E79D1622F1D7B800B09181 /* Assets.xcassets */,
 				18E79D1822F1D7B800B09181 /* LaunchScreen.storyboard */,
 				18E79D1B22F1D7B800B09181 /* Info.plist */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18E79D1522F1D7B600B09181 /* Strings.xcdatamodeld in Sources */,
+				18E79D2622F3725000B09181 /* AddVideoViewController.swift in Sources */,
 				18E79D2422F3297C00B09181 /* FeedLinksTableViewController.swift in Sources */,
 				18E79D2222F22BC200B09181 /* MessagesTableViewController.swift in Sources */,
 				18E79D0D22F1D7B600B09181 /* AppDelegate.swift in Sources */,

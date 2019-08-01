@@ -12,13 +12,13 @@ import UIKit
 struct Feed{
     var id : Int
     var name: String
-    var instrument : String
-    var link: String
+   var instrument : String
+    //var link: String
     
 }
 class FeedLinksTableViewController: UITableViewController {
 
-    var allFeed = [Feed(id: 1, name: "Cheyenne, Ajebe", instrument: "Bass Trombone", link: "")]
+    var allFeed = [Feed(id: 1, name: "Cheyenne Ajebe " , instrument: "Bass Trombone link: ")]
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -43,15 +43,18 @@ class FeedLinksTableViewController: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "LabelCell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "LabelCell_2", for: indexPath)
+       
         
         cell.textLabel?.text = allFeed[indexPath.row].name
-        cell.textLabel?.text = allFeed[indexPath.row].instrument
-        cell.textLabel?.text = allFeed[indexPath.row].link
+        cell.detailTextLabel?.text = allFeed[indexPath.row].instrument
+       // cell.textLabel?.text = allFeed[indexPath.row].link
         
         
 
         return cell
+
+        
     }
     
 
