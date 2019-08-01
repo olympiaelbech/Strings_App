@@ -8,24 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		18E79D0D22F1D7B600B09181 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E79D0C22F1D7B600B09181 /* AppDelegate.swift */; };
-		18E79D0F22F1D7B600B09181 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E79D0E22F1D7B600B09181 /* ViewController.swift */; };
 		18E79D1222F1D7B600B09181 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E79D1022F1D7B600B09181 /* Main.storyboard */; };
 		18E79D1522F1D7B600B09181 /* Strings.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18E79D1322F1D7B600B09181 /* Strings.xcdatamodeld */; };
 		18E79D1722F1D7B800B09181 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E79D1622F1D7B800B09181 /* Assets.xcassets */; };
 		18E79D1A22F1D7B800B09181 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E79D1822F1D7B800B09181 /* LaunchScreen.storyboard */; };
 		18E79D2222F22BC200B09181 /* MessagesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E79D2122F22BC200B09181 /* MessagesTableViewController.swift */; };
+		18E79D2422F3297C00B09181 /* FeedLinksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E79D2322F3297C00B09181 /* FeedLinksTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		18E79D0922F1D7B600B09181 /* Strings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Strings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E79D0C22F1D7B600B09181 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		18E79D0E22F1D7B600B09181 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		18E79D1122F1D7B600B09181 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18E79D1422F1D7B600B09181 /* Strings.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Strings.xcdatamodel; sourceTree = "<group>"; };
 		18E79D1622F1D7B800B09181 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18E79D1922F1D7B800B09181 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18E79D1B22F1D7B800B09181 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18E79D2122F22BC200B09181 /* MessagesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesTableViewController.swift; sourceTree = "<group>"; };
+		18E79D2322F3297C00B09181 /* FeedLinksTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLinksTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,13 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				18E79D0C22F1D7B600B09181 /* AppDelegate.swift */,
-				18E79D0E22F1D7B600B09181 /* ViewController.swift */,
 				18E79D1022F1D7B600B09181 /* Main.storyboard */,
 				18E79D1622F1D7B800B09181 /* Assets.xcassets */,
 				18E79D1822F1D7B800B09181 /* LaunchScreen.storyboard */,
 				18E79D1B22F1D7B800B09181 /* Info.plist */,
 				18E79D1322F1D7B600B09181 /* Strings.xcdatamodeld */,
 				18E79D2122F22BC200B09181 /* MessagesTableViewController.swift */,
+				18E79D2322F3297C00B09181 /* FeedLinksTableViewController.swift */,
 			);
 			path = Strings;
 			sourceTree = "<group>";
@@ -142,8 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				18E79D1522F1D7B600B09181 /* Strings.xcdatamodeld in Sources */,
+				18E79D2422F3297C00B09181 /* FeedLinksTableViewController.swift in Sources */,
 				18E79D2222F22BC200B09181 /* MessagesTableViewController.swift in Sources */,
-				18E79D0F22F1D7B600B09181 /* ViewController.swift in Sources */,
 				18E79D0D22F1D7B600B09181 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
