@@ -20,10 +20,10 @@ class AddVideoViewController: UIViewController {
     //this function opens Youtube on Safari
     //back button once website is opened is labeled with the name of your app
 
-    @IBAction func Upload(_ sender: UIButton) {
-        UIApplication.shared.open(URL(string:"https://www.youtube.com")! as URL, options: [:], completionHandler: nil)
-        
+    @IBAction func upload(_ sender: Any) {
+         UIApplication.shared.open(URL(string:"https://accounts.google.com/ServiceLogin/signinchooser?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fupload&hl=en&flowName=GlifWebSignIn&flowEntry=ServiceLogin")! as URL, options: [:], completionHandler: nil)
     }
+    
     
     
     

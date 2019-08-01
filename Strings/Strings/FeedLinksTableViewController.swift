@@ -18,7 +18,7 @@ struct Feed{
 }
 class FeedLinksTableViewController: UITableViewController {
 
-    var allFeed = [Feed(id: 1, name: "Cheyenne Ajebe " , instrument: "Bass Trombone link: ")]
+    var allFeed = [Feed(id: 1, name: "Cheyenne Ajebe " , instrument: "Bass Trombone link: https://www.youtube.com/watch?v=UJOa3t2OuPc "), Feed(id: 2, name: "Fred Ghess " , instrument: "Flute link: https://www.youtube.com/watch?v=UJOa3t2OuPc "), Feed(id: 3, name: " Carlo Mine" , instrument: "Piano link: https://www.youtube.com/watch?v=UJOa3t2OuPc "), Feed(id: 4, name: "Drew Nhussh " , instrument: "Oboe link: https://www.youtube.com/watch?v=UJOa3t2OuPc "), Feed(id: 5, name: "Nick Rellta " , instrument: "Trumpet link: https://www.youtube.com/watch?v=UJOa3t2OuPc "), Feed(id: 6, name: "Nancy Drew " , instrument: "Bass link: https://www.youtube.com/watch?v=UJOa3t2OuPc "),Feed(id: 7, name: "Karen Smith " , instrument: "Alto Sax link: https://www.youtube.com/watch?v=UJOa3t2OuPc ")]
     override func viewDidLoad() {
         super.viewDidLoad()
 
