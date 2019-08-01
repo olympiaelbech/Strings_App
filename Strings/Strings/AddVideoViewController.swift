@@ -10,11 +10,22 @@ import UIKit
 
 class AddVideoViewController: UIViewController {
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
+    //Connect button to code by creating an action
+    //this function opens Youtube on Safari
+    //back button once website is opened is labeled with the name of your app
+
+    @IBAction func Upload(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string:"https://www.youtube.com")! as URL, options: [:], completionHandler: nil)
+        
+    }
+    
+    
     
 
     /*
